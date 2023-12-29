@@ -94,8 +94,10 @@ table #minesweeper td {
   text-align: center;
 }
 
-.card img {
+.card #emoji {
   border: 1px solid black;
+  color: black;
+  font-size: 30px;
   width: 35px;
   padding: 3px;
   margin: 5px auto;
@@ -104,12 +106,12 @@ table #minesweeper td {
   cursor: pointer;
 }
 
-.card img:hover {
+.card #emoji:hover {
   box-shadow: 0 0 10px black;
 
 }
 
-.card img:active {
+.card #emoji:active {
   background-color: rgba(255, 255, 0, 0.426);
 }
 
