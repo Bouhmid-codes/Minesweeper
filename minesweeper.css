@@ -1,0 +1,140 @@
+/* CSS classes you can use on your table td to display the relevant tile */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+td.unopened {
+  background: url('img/unopened.svg');
+  cursor: pointer;
+}
+
+td.opened {
+  background: url('img/opened.svg');
+  text-align: center;
+}
+
+td.flagged {
+  background: url('img/flag.svg');
+}
+
+td.question {
+  background: url('img/question.svg');
+}
+
+td.mine {
+  background: url('img/mine.png');
+}
+
+td.mine-neighbour-1 {
+  background: url('img/1.svg');
+}
+
+td.mine-neighbour-2 {
+  background: url('img/2.svg');
+}
+
+td.mine-neighbour-3 {
+  background: url('img/3.svg');
+}
+
+td.mine-neighbour-4 {
+  background: url('img/4.svg');
+}
+
+td.mine-neighbour-5 {
+  background: url('img/5.svg');
+}
+
+td.mine-neighbour-6 {
+  background: url('img/6.svg');
+}
+
+td.mine-neighbour-7 {
+  background: url('img/7.svg');
+}
+
+td.mine-neighbour-8 {
+  background: url('img/8.svg');
+}
+
+/* Positioning the Minesweep table and make sure the cells are square */
+.container {
+  background-color: #d3d6de;
+  padding: 0 30px 20px;
+  text-align: center;
+  width: 390px;
+  margin: 50px auto;
+  border: 5px gray;
+  border-style: ridge;
+}
+
+table #minesweeper {
+  width: 350px;
+  background-color: red;
+  margin: auto;
+  margin-top: 3em;
+  border: 1px solid #999;
+  border-collapse: collapse;
+}
+
+table #minesweeper td {
+  color: red;
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+}
+
+.card {
+  display: flex;
+  padding-top: 10px;
+  width: 389px;
+  background-color: #d3d6de;
+  text-align: center;
+}
+
+.card img {
+  border: 1px solid black;
+  width: 35px;
+  padding: 3px;
+  margin: 5px auto;
+  box-shadow: 0 0 10px rgb(107, 107, 107);
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.card img:hover {
+  box-shadow: 0 0 10px black;
+
+}
+
+.card img:active {
+  background-color: rgba(255, 255, 0, 0.426);
+}
+
+.card #flags {
+  background-color: red;
+  width: 70px;
+  align-self: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0;
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.card #timer {
+  background-color: red;
+  width: 70px;
+  align-self: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid black;
+}

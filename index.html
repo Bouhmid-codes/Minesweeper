@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minesweeper</title>
+  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <link rel="stylesheet" href="minesweeper.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <p id="flags"></p>
+      <img src="/img/face-smile-regular.svg" id="emoji">
+      <p id="timer">000</p>
+    </div>
+    <table>
+      <tbody id="minesweeper">
+
+      </tbody>
+    </table>
+  </div>
+
+  <p id="seconds-counter"></p>
+
+  <!-- Including your code -->
+  <script type="module" src="./lib/minesweeper.js"></script>
+</body>
+
+</html>
